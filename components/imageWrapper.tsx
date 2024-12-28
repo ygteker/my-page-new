@@ -5,13 +5,15 @@ interface ImageWrapperProps {
   order: number
 }
 
-const ROTATIONS = [20, 335, 15, 340, 25, 345];
+const ROTATIONS = [10, 350, 5, 355, 15, 345];
 
 const ImageWrapper = (props: ImageWrapperProps) => {
   return (
-    <div className="w-32 h-32 bg-gray-200 flex justify-center items-center"
+    <div className="flex rounded-md justify-center items-center overflow-hidden aspect-[4/3]"
       style={{ transform: `rotate(${ROTATIONS[props.order]}deg)` }} >
-      <Image src={props.image} alt="" width={200} height={300} />
+      <Image
+        className="object-cover"
+        src={props.image} alt="" width={400} height={1000} />
     </div >
   )
 }

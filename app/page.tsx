@@ -1,26 +1,31 @@
 import Navbar from "@/components/Navbar";
 import HeaderAndText from "@/components/HeaderAndText";
 import SocialButton from "@/components/SocialButton";
+import img1 from "@/assets/p1.jpg";
+import img2 from "@/assets/my_img1.png";
+import img3 from "@/assets/p4.jpg";
+import img4 from "@/assets/my_img2.png";
+import img5 from "@/assets/my_img3.png";
 import linkedinImg from "@/assets/linkedin.png";
 import githubImg from "@/assets/github.png";
-import mailImg from "@/assets/mail.png";
 import ImageWrapper from "@/components/imageWrapper";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className="w-3/4 mx-auto bg-gray-100 p-4 rounded-lg shadow-md">
+      <div className="relative h-screen w-3/4 mx-auto bg-gray-100 p-4 space-y-12">
+        <Navbar />
         <HeaderAndText title="Test" text="Test text" />
-        <div className="flex mx-auto mt-4 space-x-4 w-fit">
+        <div className="flex mx-auto space-x-4 w-fit">
           <SocialButton imagePath={linkedinImg} address="https://www.linkedin.com/in/gunesteker/" />
-          <SocialButton imagePath={mailImg} address="mailto://gunes.teker@gmail.com" />
           <SocialButton imagePath={githubImg} address="https://www.github.com/ygteker/" />
         </div>
-        <div className="flex flex-row space-x-8">
-          <ImageWrapper image={linkedinImg} order={1} />
-          <ImageWrapper image={mailImg} order={2} />
-          <ImageWrapper image={githubImg} order={3} />
+        <div className="absolute left-0 flex flex-row justify-between">
+          <ImageWrapper image={img1} order={1} />
+          <ImageWrapper image={img2} order={2} />
+          <ImageWrapper image={img3} order={3} />
+          <ImageWrapper image={img4} order={4} />
+          <ImageWrapper image={img5} order={5} />
         </div>
       </div>
     </>
