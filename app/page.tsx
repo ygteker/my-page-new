@@ -9,13 +9,14 @@ import img5 from "@/assets/my_img3.png";
 import linkedinImg from "@/assets/linkedin.png";
 import githubImg from "@/assets/github.png";
 import ImageWrapper from "@/components/imageWrapper";
+import strings from "@/strings.json";
 
 export default function Home() {
   return (
-    <>
-      <div className="relative h-screen w-3/4 mx-auto bg-gray-100 p-4 space-y-12">
+    <div className="bg-gray-100">
+      <div className="relative h-screen w-3/4 mx-auto bg-white p-4 space-y-12">
         <Navbar />
-        <HeaderAndText title="Test" text="Test text" />
+        <HeaderAndText title={strings['main-title']} text={strings['main-content']} />
         <div className="flex mx-auto space-x-4 w-fit">
           <SocialButton imagePath={linkedinImg} address="https://www.linkedin.com/in/gunesteker/" />
           <SocialButton imagePath={githubImg} address="https://www.github.com/ygteker/" />
@@ -28,6 +29,6 @@ export default function Home() {
           <ImageWrapper image={img5} order={5} />
         </div>
       </div>
-    </>
+    </div>
   );
 }

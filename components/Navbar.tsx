@@ -1,39 +1,22 @@
-import Link from "next/link";
+import MyLink from "./MyLink";
 
 const Navbar = () => {
   return (
     <nav className="flex justify-center">
       <div className="bg-white rounded-full px-6 shadow-md inline-flex items-center w-auto border border-gray">
         <div className="flex justify-center items-center h-10">
-          {/* Navigation Links */}
           <ul className="hidden md:flex space-x-4">
             <li>
-              <Link href="/" passHref>
-                <p className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
-                  Home
-                </p>
-              </Link>
+              <MyLink text="About" link="/" />
             </li>
             <li>
-              <Link href="/features" passHref>
-                <p className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
-                  Features
-                </p>
-              </Link>
+              <MyLink text="Resume" link="/resume" />
             </li>
             <li>
-              <Link href="/pricing" passHref>
-                <p className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
-                  Pricing
-                </p>
-              </Link>
+              <MyLink text="Projects" link="/projects" />
             </li>
             <li>
-              <Link href="/contact" passHref>
-                <p className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
-                  Contact
-                </p>
-              </Link>
+              <MyLink text="Uses" link="/uses" />
             </li>
           </ul>
         </div>

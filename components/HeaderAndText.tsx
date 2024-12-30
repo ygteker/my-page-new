@@ -5,10 +5,10 @@ interface HeaderAndTextProps {
 }
 const HeaderAndText = (props: HeaderAndTextProps) => {
   return (
-    <>
-      <p className="text-4xl text-black mb-4">{strings['main-title']}</p>
-      <p>{strings['main-content']}</p>
-    </>
+    <div className="py-16 px-8">
+      <p className="text-4xl font-extrabold text-gray-800 mb-6 text-left">{props.title}</p>
+      <p className="text-lg text-gray-600 leading-relaxed text-left">{props.text}</p>
+    </div>
   )
 }
 
