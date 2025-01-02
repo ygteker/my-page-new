@@ -17,7 +17,7 @@ Here’s what I use daily to build scalable, reliable, and efficient systems:
 
 ## 🤝 Let's Connect
 
-- [LinkedIn](https://www.linkedin/in/gunesteker)  
+- [LinkedIn](https://www.linkedin.com/in/gunesteker)  
 - [GitHub](https://www.github.com/ygteker)  
 - [Email Me](mailto:gunes.teker@gmail.com)  
 
