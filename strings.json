@@ -3,6 +3,8 @@
   "main-content": "I create web applications that are not just functional but thoughtfully designed to meet your needs. Whether it's crafting a sleek user interface or building a solid backend system, I put my heart into delivering solutions that make an impact. When I’m not coding, you’ll find me exploring new places, capturing moments through my lens, or planning my next adventure.",
   "projects-title": "Projects That Define My Journey as a Programmer",
   "projects-content": "Over the years, I’ve embarked on countless projects to refine my craft and solve problems I’m passionate about. Here are some of the ones I’m most proud of — projects that represent my growth, creativity, and dedication as a programmer. Many of these are open-source, so if something catches your eye, dive into the code or contribute your own ideas to help make them even better.",
+  "uses-header-title": "Software I use, gadgets I love, and other things I recommend.",
+  "uses-header-text": "I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff.",
   "uses-workstation": "Workstation",
   "uses-workstation-laptop-title": "14\" MacbookPro, M3 Pro, 18 GB RAM (2024)",
   "uses-workstation-laptop-text": "I was using an Intel based MacbookPro from 2017 prior to this and the difference is night and day. Although I am a Linux enthusiast at heart I cannot live without the comfort of the battery life this laptop offers. ",
@@ -26,5 +28,13 @@
   "uses-productivity-alfred-title": "Alfred",
   "uses-productivity-alfred-text": "I used it for years and it feels faster than default Spotlight search.",
   "uses-productivity-forest-title": "Forest",
-  "uses-productivity-forest-text": "It is a simple app for pomodoro technique. They let you do it with colleagues and friends and make it fun to work in bite size tasks together."
+  "uses-productivity-forest-text": "It is a simple app for pomodoro technique. They let you do it with colleagues and friends and make it fun to work in bite size tasks together.",
+  "projects-mypage-title": "My Personal Page",
+  "projects-mypage-text": "This page is made by me with NextJS. I use this small page to showcase my skills with latest NextJS version. I probably over engineered some stuff but it is how I’d like to develop a webpage.",
+  "projects-coffee-title": "Coffe Shop Clone",
+  "projects-coffee-text": "I tried to imitate the landing page of a popular coffee shop to showcase my skills with react. I enjoyed here following a certain design and tried to apply it pixel perfect.",
+  "projects-magazine-title": "Magazine Clone",
+  "projects-magazine-text": "This webpage is made by only HTML and JavaScript. Here I wanted to practice my vanilla JS and HTML skills and I actually enjoyed its simplicity and straight forward approaches.",
+  "projects-others-title": "All the Others",
+  "projects-others-text": "Sadly most of my work are professional commercial works which also include an NDA. I worked in numerous large projects including public sector, insurance and finance. I can tell more in detail if you’d like to contact me."
 }

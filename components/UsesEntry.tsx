@@ -11,7 +11,7 @@ const UsesEntry = (props: UsesEntryProps) => {
     <div className="w-full max-w-5xl mx-auto my-12">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/4 pr-4 mb-6 md:mb-0">
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-xl font-bold">
             {props.title}
           </h2>
         </div>
@@ -20,7 +20,7 @@ const UsesEntry = (props: UsesEntryProps) => {
             <div
               key={index}
               className="border-t border-gray-300 pt-6">
-              <h3 className="text-lg font-semibold mb-2">
+              <h3 className="text-md font-semibold mb-2">
                 {use.title}
               </h3>
               <p className="text-base leading-relaxed">

@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import UsesEntry from "@/components/UsesEntry";
 import { CategoryEntry } from "@/types/CategoryEntry";
 import strings from "@/strings.json";
+import HeaderAndText from "@/components/HeaderAndText";
 
 export default function Uses() {
   const workstationEntries: CategoryEntry[] = [
@@ -28,6 +29,7 @@ export default function Uses() {
     <div className="bg-gray-100 min-h-screen">
       <div className="relative h-full w-3/4 mx-auto bg-white p-8 space-y-12">
         <Navbar />
+        <HeaderAndText title={strings["uses-header-title"]} text={strings["uses-header-text"]} />
         <UsesEntry title={strings["uses-workstation"]} uses={workstationEntries} />
         <UsesEntry title={strings["uses-devtools"]} uses={devtoolsEntries} />
         <UsesEntry title={strings["uses-design"]} uses={designEntries} />
