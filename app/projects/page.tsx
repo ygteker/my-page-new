@@ -9,7 +9,7 @@ import strings from "@/strings.json";
 export default function Projects() {
   return (
     <div className="bg-gray-100">
-      <div className="relative h-full w-3/4 mx-auto bg-white p-4 pb-12 space-y-12">
+      <div className="relative h-full w-3/4 mx-auto bg-white p-8 pb-12 space-y-12">
         <Navbar />
         <HeaderAndText title={strings["projects-title"]} text={strings["projects-content"]} />
         <div className="grid grid-cols-2 gap-24 px-12">

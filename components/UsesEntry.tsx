@@ -8,24 +8,29 @@ interface UsesEntryProps {
 
 const UsesEntry = (props: UsesEntryProps) => {
   return (
-    <>
-      <p>{props.title}</p>
-      <ul>
-        {props.uses.map(use => {
-          return (
-            <>
-              <li>
+    <div className="w-full max-w-5xl mx-auto my-12">
+      <div className="flex flex-col md:flex-row">
+        <div className="md:w-1/4 pr-4 mb-6 md:mb-0">
+          <h2 className="text-2xl font-bold">
+            {props.title}
+          </h2>
+        </div>
+        <div className="md:w-3/4 space-y-8">
+          {props.uses.map((use, index) => (
+            <div
+              key={index}
+              className="border-t border-gray-300 pt-6">
+              <h3 className="text-lg font-semibold mb-2">
                 {use.title}
-              </li>
-              <li>
+              </h3>
+              <p className="text-base leading-relaxed">
                 {use.text}
-              </li>
-            </>
-          )
-        })}
-      </ul>
-    </>
-  )
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>)
 }
 
 export default UsesEntry;

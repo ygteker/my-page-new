@@ -14,7 +14,7 @@ import strings from "@/strings.json";
 export default function Home() {
   return (
     <div className="bg-gray-100">
-      <div className="relative h-screen w-3/4 mx-auto bg-white p-4 space-y-12">
+      <div className="relative h-screen w-3/4 mx-auto bg-white p-8 space-y-12">
         <Navbar />
         <HeaderAndText title={strings['main-title']} text={strings['main-content']} />
         <div className="flex mx-auto space-x-4 w-fit">
