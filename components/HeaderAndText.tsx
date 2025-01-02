@@ -1,4 +1,3 @@
-import strings from '@/strings.json';
 interface HeaderAndTextProps {
   title: string,
   text: string,
